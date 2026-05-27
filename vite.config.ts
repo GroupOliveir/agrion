@@ -11,7 +11,7 @@ export default defineConfig({
       prerender: { enabled: false },
     }),
     nitro({
-      preset: "vercel",
+      preset: "cloudflare-pages",
     }),
     viteReact(),
     tailwindcss(),
